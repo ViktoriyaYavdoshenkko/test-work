@@ -6,6 +6,7 @@
     <title>Black Dating</title>
     <link rel="stylesheet" type="text/css" href="style/style.css">
     <link rel="stylesheet" type="text/css" href="style/list.css">
+    <link rel="stylesheet" type="text/css" href="style/menu.css">
 </head>
 
 <body>
@@ -20,18 +21,38 @@
                 <a href="#HowItWorks" title="How It Works">How It Works</a>
                 <a href="#Contacts" title="Contacts">Contacts</a>
                 <form action="form.html" target="_blank">
-                <button name="Login">Login</button>
+                    <button name="Login">Login</button>
                 </form>
             </nav>
+
+            <!-- mobile version -->
+
+            <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>
+                <ul class="menu__box">
+                    <li><a class="menu__item" href="#">Главная</a></li>
+                    <li><a class="menu__item" href="#">Проекты</a></li>
+                    <li><a class="menu__item" href="#">Команда</a></li>
+                    <li><a class="menu__item" href="#">Блог</a></li>
+                    <li><a class="menu__item" href="#">Контакты</a></li>
+                </ul>
+            </div>
+
         </div>
+
+
 
         <div class="tryItNow">
             <h2>Meet Black Singles</h2>
             <h4>Service Designed To Bring Black Singles Together</h4>
             <form action="form.html" target="_blank">
-            <button name="Try" >Try it now</button>
-        </form>
+                <button name="Try">Try it now</button>
+            </form>
         </div>
+
     </header>
 
     <div class="conteiner">
@@ -66,28 +87,28 @@
             </div>
         </div>
 
-<div class="landing-bg-gray">
-        <div class="section">
-            <span>Members Who Have Found Love</span>
-            <div class="flex justify-center">
+        <div class="landing-bg-gray">
+            <div class="section">
+                <span>Members Who Have Found Love</span>
+                <div class="flex justify-center">
 
-                <div class="first-selection">
-                    <img src="https://cdn.blackcupid.com/assets/images/default/success1.png" alt="1"><span></span>
-                    <p>Everyday singles find love on BlackCupid.com and share their stories with us.</p>
+                    <div class="first-selection">
+                        <img src="https://cdn.blackcupid.com/assets/images/default/success1.png" alt="1"><span></span>
+                        <p>Everyday singles find love on BlackCupid.com and share their stories with us.</p>
+                    </div>
+
+                    <div class="second-selection">
+                        <img src="https://cdn.blackcupid.com/assets/images/default/success2.png" alt="2"><span></span>
+                        <p>Start a new chapter in your life and create your own success story. We would love to hear from you!</p>
+                    </div>
                 </div>
 
-                <div class="second-selection">
-                    <img src="https://cdn.blackcupid.com/assets/images/default/success2.png" alt="2"><span></span>
-                    <p>Start a new chapter in your life and create your own success story. We would love to hear from you!</p>
-                </div>
             </div>
-            
-        </div>
- <form action="testimonials.html" target="_blank">
-            <button name="Find">Read Testimonials</button>
+            <form action="testimonials.html" target="_blank">
+                <button name="Find">Read Testimonials</button>
             </form>
 
- </div>
+        </div>
 
         <div class="list" id="HowItWorks">
             <span>How It Works <br>Get started on BlackCupid.com today in 3 simple steps:</span>
@@ -97,7 +118,7 @@
                 <li><a href="">Send a message or interest to start communicating with members. It's your time to shine.</a></li>
             </ol>
             <form action="form.html" target="_blank">
-            <button name="Find">Find Your Match</button>
+                <button name="Find">Find Your Match</button>
             </form>
         </div>
     </main>
